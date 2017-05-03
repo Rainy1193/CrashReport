@@ -15,6 +15,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         NewObject newObject = getIntent().getParcelableExtra("ParcelKey");
-        Log.e("Object", newObject.toString());
+        Log.e("Sana", newObject.toString());
     }
 }
